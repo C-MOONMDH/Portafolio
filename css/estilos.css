@@ -346,3 +346,5 @@ footer .redes-sociales .github:hover { transition: all 1s ease; background: #333
     }
     
 }
+
+a { text-decoration: none; }
