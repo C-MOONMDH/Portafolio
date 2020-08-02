@@ -170,6 +170,7 @@ header .contenedor .texto .profesion {
 .main .trabajos .contenedor-trabajos .trabajo .thumb {
     width: 100%;
     margin-bottom: 10px;
+    box-shadow: 0px 5px 10px #000;
 }
 
 .main .trabajos .contenedor-trabajos .trabajo .thumb img {
@@ -180,6 +181,11 @@ header .contenedor .texto .profesion {
 
 .main .trabajos .contenedor-trabajos .trabajo .descripcion {
     text-align: center;
+}
+
+.main .trabajos .contenedor-trabajos .hover:hover{
+    transition: all 1s ease;
+    opacity: .5;
 }
 
 .main .trabajos .contenedor-trabajos .trabajo .descripcion .nombre {
@@ -347,4 +353,10 @@ footer .redes-sociales .github:hover { transition: all 1s ease; background: #333
     
 }
 
-a { text-decoration: none; }
+.enlace {
+    text-decoration: none;
+}
+
+.enlace:hover {
+    background: #1da1f2;
+}
